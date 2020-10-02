@@ -8,7 +8,7 @@
 }
 body{
     background-color: var(--color-mesa);
-    text-shadow: 1px 1px 3px var(--color-texto-1);
+    text-shadow: 2px 2px 10px var(--color-texto-1);
     font-family: var(--tipo-cuerpo)
 }
 header{
@@ -61,12 +61,24 @@ main{
 .seccion-central{
     flex: 2;
     height: 700px;
-    background-color: seagreen;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .seccion-der{
     flex: 1;
     height: 500px;
     background-color: salmon;
+}
+.separador-h{
+    height: 2px;
+    background-color: var(--color-texto-1);
+    margin: 10px 0px 10px 0px;
+}
+.separador-vl{
+    border-left: 8px double var(--color-texto-1);
+}
+.separador-vr{
+    border-right: 8px double var(--color-texto-1);
 }
