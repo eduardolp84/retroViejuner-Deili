@@ -1,0 +1,72 @@
+:root{
+    --color-texto-1:#3c0000;
+    --color-fondo-1:#C9CBA3;
+    --color-mesa: #472D30;
+    --ancho-hoja: 1000px;
+    --tipo-titular:'Oswald', sans-serif;
+    --tipo-cuerpo: 'Amatic SC', cursive;
+}
+body{
+    background-color: var(--color-mesa);
+    text-shadow: 1px 1px 3px var(--color-texto-1);
+    font-family: var(--tipo-cuerpo)
+}
+header{
+    color: var(--color-texto-1);
+    text-align: center;
+    height: auto;
+}
+main{
+    text-align: center;
+}
+.hoja{
+    background-color: var(--color-fondo-1);
+    padding: 50px 40px 20px 40px;
+}
+.sombra { 
+    width: var(--ancho-hoja);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0px 7px 24px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 24px 10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 24px 10px rgba(0, 0, 0, 0.75);
+}
+.titulo{
+    font-family: var(--tipo-titular);
+    font-size: 6.5em;
+    border: 10px double var(--color-texto-1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.titular-1{
+    font-family: var(--tipo-titular);
+    font-size: 5em;
+    margin: 10px;
+}
+.titular-2{
+    font-family: var(--tipo-titular);
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.secciones{
+    display: flex;
+}
+.seccion-izq{
+    flex: 1;
+    height: 500px;
+    background-color: salmon;
+}
+.seccion-central{
+    flex: 2;
+    height: 700px;
+    background-color: seagreen;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.seccion-der{
+    flex: 1;
+    height: 500px;
+    background-color: salmon;
+}
