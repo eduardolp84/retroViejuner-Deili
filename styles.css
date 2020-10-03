@@ -2,6 +2,7 @@
     --color-texto-1:#3c0000;
     --color-fondo-1:#C9CBA3;
     --color-mesa: #472D30;
+    --color-filtro: #6d6875;
     --ancho-hoja: 1000px;
     --tipo-titular:'Oswald', sans-serif;
     --tipo-cuerpo: 'Amatic SC', cursive;
@@ -10,6 +11,7 @@ body{
     background-color: var(--color-mesa);
     text-shadow: 2px 2px 10px var(--color-texto-1);
     font-family: var(--tipo-cuerpo)
+
 }
 header{
     color: var(--color-texto-1);
@@ -40,11 +42,13 @@ main{
     margin-bottom: 20px;
 }
 .titular-1{
+    color: var(--color-texto-1);
     font-family: var(--tipo-titular);
     font-size: 5em;
     margin: 10px;
 }
 .titular-2{
+    color: var(--color-texto-1);
     font-family: var(--tipo-titular);
     font-size: 3em;
     margin-top: 10px;
@@ -81,4 +85,23 @@ main{
 }
 .separador-vr{
     border-right: 8px double var(--color-texto-1);
+}
+.imagenes-color{
+    position: relative;
+}
+.img-color{
+    z-index: 0;
+}
+.filtro{
+    position: absolute;
+    height: 225.2px;
+    width: 400px;
+    left: 6px;
+    bottom: 3.2px;
+    background-color: var(--color-filtro);
+    opacity: 0.4;
+    z-index: +1;
+}
+.texto-noticia{
+    font-size: 25px;
 }
