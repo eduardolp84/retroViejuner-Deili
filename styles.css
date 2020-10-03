@@ -75,33 +75,19 @@ main{
     height: 500px;
     background-color: salmon;
 }
-.separador-h{
-    height: 2px;
-    background-color: var(--color-texto-1);
-    margin: 10px 0px 10px 0px;
-}
 .separador-vl{
     border-left: 8px double var(--color-texto-1);
 }
 .separador-vr{
     border-right: 8px double var(--color-texto-1);
 }
-.imagenes-color{
-    position: relative;
-}
 .img-color{
-    z-index: 0;
-}
-.filtro{
-    position: absolute;
-    height: 225.2px;
-    width: 400px;
-    left: 6px;
-    bottom: 3.2px;
-    background-color: var(--color-filtro);
-    opacity: 0.4;
-    z-index: +1;
+    filter: sepia(100%);
+    margin-top: 20px;
 }
 .texto-noticia{
     font-size: 25px;
+}
+.border-inf-1{
+    border-bottom: solid 2px var(--color-texto-1);
 }
