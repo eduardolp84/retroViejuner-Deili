@@ -54,17 +54,33 @@ main{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.titular-3{
+    color: var(--color-texto-1);
+    font-family: var(--tipo-titular);
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.titular-4{
+    color: var(--color-texto-1);
+    font-family: var(--tipo-titular);
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.titular-art{
+    font-size: 30px;
+    text-transform: uppercase;
+}
 .secciones{
     display: flex;
 }
 .seccion-izq{
     flex: 1;
-    height: 500px;
-    background-color: salmon;
+    padding-top: 20px;
 }
 .seccion-central{
     flex: 2;
-    height: 700px;
     margin-left: 20px;
     margin-right: 20px;
     padding-left: 20px;
@@ -72,8 +88,6 @@ main{
 }
 .seccion-der{
     flex: 1;
-    height: 500px;
-    background-color: salmon;
 }
 .separador-vl{
     border-left: 8px double var(--color-texto-1);
