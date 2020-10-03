@@ -73,6 +73,7 @@ main{
     font-size: 1em;
     margin-top: 10px;
     margin-bottom: 10px;
+    display: block;
 }
 .titular-4{
     color: var(--color-texto-1);
